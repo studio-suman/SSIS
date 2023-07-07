@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="mis-db.database.windows.net.db"
+  DTS:DTSID="{3E51DA4E-AE58-459F-B489-9DF26C6EE348}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=mis-db.database.windows.net;User ID=db;Initial Catalog=MIS_DB;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Package-{3E51DA4E-AE58-459F-B489-9DF26C6EE348}mis-db.database.windows.net.db;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9ZyFpdh0Gk6PtvFjxR2HKwAAAAACAAAAAAAQZgAAAAEAACAAAACIRHOZf0SDiwkALtLo1VWPPpgye/SJib7mmeoy2telSwAAAAAOgAAAAAIAACAAAACorzIfIABK60EtrBCSF7VNvK2XOc54KVOwMvdJ+vNIrIAAAAAQzdP+IJJgW0H88UIZc5FYP8kg1gknvQPRLYOg+Ywt0fGOiZsyY2BDCe/bAZAQrmggb2jBORfnxr9QXPVR7kQBKfiKQug7aZnm7VLozMnfAaX7qFlKq2hYxY4InigQ81rQQh5ZnQdcNQ9kjGfopPv6LjAxwXt3pco290fDh0aU10AAAADWTKCEUz87Al91rYl4kdNoOU5yNVstOSYURZGaU4Le+mCrLZs66+URN+Nb2DeC7RhlxlgzyTuteyLJ2SS5orIn</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
